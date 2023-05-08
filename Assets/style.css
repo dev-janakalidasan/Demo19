@@ -528,6 +528,11 @@
 }
 
 @media (max-width:578px) {
+    .navbar-bg {
+        min-height: 55px !important;
+        background-color:#000;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
     #navbarSupportedContent ul li a {
         margin-left: -60px;
         font-size: 14px;
@@ -692,7 +697,7 @@
         border: 2px solid gray !important;
         font-weight: 600;
         border-radius: 20px 20px 20px 20px;
-        margin-left: -70px;
+        margin-left: -82px;
     }
 }
 
