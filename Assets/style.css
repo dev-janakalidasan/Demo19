@@ -14,7 +14,7 @@
 /*header*/
 
 #navbarSupportedContent {
-    margin-left: 0px;
+    margin-left: 80px;
 }
 
 #navbarSupportedContent ul li a {
@@ -59,8 +59,8 @@
     font-size: 11px;
     color:var(--second-color) ;
     background-color: transparent;
-     padding-left: 20px;
-      padding-right: 20px;
+     padding-left: 30px;
+      padding-right: 30px;
 
       border-radius: 20px 20px 20px 20px;
       font-weight: 600;
@@ -106,6 +106,12 @@ color: var(--third-color);
 #su-1:hover{
 background-color: var(--second-color);
 color: var(--third-color);
+}
+.flag{
+width: 20%;
+}
+#en{
+    font-size: 14px !important;
 }
 .navbar-bg {
     min-height: 55px !important;
