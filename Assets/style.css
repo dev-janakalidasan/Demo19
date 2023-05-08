@@ -530,7 +530,21 @@
         font-weight: bolder;
         font-style: normal;
         font-size: 45px;
-        margin-top: 72px;
+        margin-top: 175px;
+    }#susm {
+        font-size: 12px;
+        color: var(--first-color);
+        background-color: transparent;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px 20px 20px 20px;
+        font-weight: 600;
+        background: linear-gradient(#fff, #fff) padding-box, linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
+        border-radius: 50em;
+        border: 2px solid transparent;
+        margin-top: 6%;
     }
     .trade {
         color: #fff;
@@ -550,13 +564,30 @@
     #con-up {
         padding: 25px 0px 15px 45px;
         position: absolute;
-        margin-top: 65px;
-        margin-left: 2%;
+        margin-top: 0px;
+        margin-left: -2%;
         border-radius: 15px 15px 15px 15px;
         background-color: #303138;
-        width: 95%;
+        width: 100%;
     }
-
+    #down{
+        margin-top: -65px;
+    }
+    .atb {
+        color: #fff;
+        margin-left: 0px;
+        margin-top: 80px;
+        font-size: 17px;
+    }.fd {
+        margin-left: 0%;
+    }.py {
+        color: #e3dcdc;
+        font-size: 13px;
+        line-height: 30px;
+        margin-left: -30px;
+    }.pys {
+        width: 352%;
+    }
     #balc {
         background-image: none;
         background-position: center;
@@ -598,6 +629,19 @@
     #sua {
         display: flex;
         justify-content: center;
+    }.have {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    }.ours {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    }#co{
+        display: flex;
+        justify-content: center;
+    }#eo{
+        margin-left: -15%;
     }
 }
 
