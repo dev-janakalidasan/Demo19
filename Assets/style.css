@@ -56,7 +56,7 @@
     margin-top: 10px;
 }
 #su {
-    font-size: 11px;
+    font-size: 9px;
     color:var(--second-color) ;
     background-color: transparent;
      padding-left: 30px;
@@ -78,7 +78,7 @@
     linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
 color: var(--third-color);
 }#su-2 {
-    font-size: 11px;
+    font-size: 9px;
     color:var(--second-color) ;
     background-color: transparent;
      padding-left: 20px;
@@ -93,7 +93,7 @@ background-color: var(--second-color);
 color: var(--third-color);
 }
 #su-1 {
-    font-size: 11px;
+    font-size: 9px;
     color:var(--second-color) ;
     background-color: transparent;
      padding-left: 20px;
@@ -231,6 +231,188 @@ color: var(--third-color);
     margin-left: 10%;
     
 }
+/* instruments */
+#balc{
+    background-image: url('../Assets/image/Rectangle 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: 100%;
+}.trade{
+    color: #fff;
+    margin-top: 40%;
+    font-size: 60px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(0deg,#B1BFE1 0%, #FFFFFF 29%, #E52C39 55%, #0085F3 85%, #E5E9F9 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}.tare{
+    font-size: 18px;
+    color: #fff;
+}#sus {
+    font-size: 12px;
+    color:var(--second-color) ;
+    background-color: transparent;
+     padding-left: 20px;
+      padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+      border-radius: 20px 20px 20px 20px;
+      font-weight: 600;
+      background: linear-gradient(#000,#000) padding-box,
+              linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+   
+    
+}
+
+
+#sus:hover{
+    background: linear-gradient(#fff,#fff) padding-box,
+    linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
+color: var(--third-color);
+}.handle-balls{
+    margin-top: 45%;
+}.cur{
+    margin-top: 15%;
+}#cir{
+    width: 70%;
+    margin-top: 20px;
+}.curren{
+    background: -webkit-linear-gradient(0deg,#E52C39 7.98%,#0085F3 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}.fores{
+    font-weight: bolder;
+
+}.lorems{
+    font-size: 13px;
+}#pips{
+    width: 30%;
+}.spre{
+    margin-left: -23%;
+    font-weight: 500;
+}#suss {
+    font-size: 12px;
+    color:var(--first-color) ;
+    background-color: transparent;
+     padding-left: 20px;
+      padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+      border-radius: 20px 20px 20px 20px;
+      font-weight: 600;
+      background: linear-gradient(#fff,#fff) padding-box,
+              linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+   margin-top: 7%;
+    
+}
+
+
+#suss:hover{
+    background: linear-gradient(#000,#000) padding-box,
+    linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
+color: var(--second-color);
+}#spot{
+    background-image: url('../Assets/image/section.section-spacing.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 100%;
+}.curren-1{
+    background: -webkit-linear-gradient(0deg,#E52C39 7.98%,#0085F3 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}.fores-1{
+    font-weight: 500;
+color: #fff;
+}.lorems-1{
+    font-size: 13px;
+    color: #fff;
+}#pips-1{
+    width: 30%;
+}.spre-1{
+    margin-left: -23%;
+    font-weight: 500;
+    color: #fff;
+}.cur-1{
+    margin-top: 50px;
+}#suss-1 {
+    font-size: 12px;
+    color:var(--first-color) ;
+    background-color: transparent;
+     padding-left: 20px;
+      padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+      border-radius: 20px 20px 20px 20px;
+      font-weight: 600;
+      background: linear-gradient(#1F2024,#1F2024) padding-box,
+              linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+   margin-top: 7%;
+    
+}
+
+
+#suss-1:hover{
+    background: linear-gradient(#000,#000) padding-box,
+    linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
+color: var(--second-color);
+}#cir-1{
+    margin-top: 80px;
+    width: 70%;
+}.to{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+margin-top: 100px;
+}
+.with{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}.enter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}#doller{
+    width: 20% !important;
+
+}.regu{
+    font-size: 19px;
+    margin-top: 10px;
+}.we{
+    font-size: 12px;
+}#susm {
+    font-size: 12px;
+    color:var(--first-color) ;
+    background-color: transparent;
+     padding-left: 20px;
+      padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+      border-radius: 20px 20px 20px 20px;
+      font-weight: 600;
+      background: linear-gradient(#fff,#fff) padding-box,
+              linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+   margin-top: 30%;
+    
+}
+
+
+#susm:hover{
+    background: linear-gradient(#000,#000) padding-box,
+    linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
+color: var(--second-color);
+}
  @media (max-width:578px){
     #con-up {
         padding: 25px 0px 15px 45px;
@@ -256,6 +438,12 @@ color: var(--third-color);
         margin-left: 13%;
         border-radius: 15px 15px 15px 15px;
         background-color:#303138;width: 75%;
+    }#balc{
+        background-image: url('../Assets/image/Rectangle 1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1075px;
+        background-size: 100%;
     }
  }
  @media (min-width:1300px) and (max-width:1490px){
@@ -271,6 +459,12 @@ color: var(--third-color);
             margin-left: 5%;
             border-radius: 15px 15px 15px 15px;
             background-color:#303138;width: 90%;
+        }#balc{
+            background-image: url('../Assets/image/Rectangle 1.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 800px;
+            background-size: 100%;
         }
  }
  @media(min-width:1900px){
@@ -288,5 +482,11 @@ color: var(--third-color);
         margin-left: 15%;
         border-radius: 15px 15px 15px 15px;
         background-color:#303138;width: 100%;
+    }#balc{
+        background-image: url('../Assets/image/Rectangle 1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1210px;
+        background-size: 100%;
     }
  }
