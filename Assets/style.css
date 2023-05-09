@@ -704,7 +704,7 @@ font-weight: bold;
     margin-top: 2%;
     line-height: 32px;
 }.clrds{
-    width: 20rem;
+    width: 19rem;
     height: 24rem !important;
     background-color:#fff!important;
     border-radius: 20px !important;
@@ -713,6 +713,23 @@ font-weight: bold;
 }#world{
     margin-top: -50%;
     padding: 5px 15px 5px 15px;
+}.eeur{
+    color: black;
+    height: 10px;
+}.vs{
+    color: #000;
+    font-size: 12px;
+}#flag-name{
+    margin-left: 20%;
+}#ese{
+    margin-left: -25px !important;
+}.num{
+    color: black;
+}#world-1 {
+    margin-top: -50%;
+    padding: 25px 35px 5px 35px;
+}#sop-3{
+    margin-top: 8% !important;
 }
 @media (max-width:578px) {
     .navbar-bg {
