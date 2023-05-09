@@ -918,6 +918,94 @@ color: #000;font-weight: 500;
 }#box-1{
     margin-top: 19%;
 }
+/* about */
+#ball-1{
+    width: 100% !important;
+}
+.handle-balls-1{
+    margin-top: 50%;
+}.tare-4 {
+    font-size: 16px;
+    color: #fff;
+}.stroy{
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(0deg, #0085F3 0%, #E52C39 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   width: 150px;
+}.abou{
+    font-weight: 600;
+    color: #000;
+}.para{
+    margin-top: 25px;
+
+}.clr{
+    width: 22rem;
+    height: 25rem !important;
+    box-shadow: 0px 0px 7px gray;
+}.card-title-3{
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(0deg, #0085F3 0%, #E52C39 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   width: 150px;
+   padding-top: 20%;
+}.card-text-3{
+    font-size: 15px;
+}#blls{
+    width: 10% !important;
+    margin-left: -20px;
+}.mid-cirl{
+    display: flex;
+    justify-content: end;
+}#bllss{
+    width: 5%;
+  
+}.clsa{
+    background-image: url('../Assets/image/section.section-spacing-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}.pre{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(0deg, #0085F3 0%, #E52C39 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  padding-top: 7%;
+}
+.rev{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: bolder;
+}.uran{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 2%;
+}.clm{
+    width: 55rem;
+    margin-top: 2%;
+    padding: 45px 0px 45px 0px;
+    background-image: linear-gradient(180deg,#0085F3 0%, #E52C39 100%);
+    border-radius: 15px !important;
+}.d-center{
+    display: flex;
+    justify-content: center;
+}.thus{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: #fff;
+}.global{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
 @media (max-width:578px) {
     .crls{
         margin-top: 20px;
