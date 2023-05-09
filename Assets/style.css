@@ -880,7 +880,7 @@ color: #000;font-weight: 500;
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 0 !important;
+    /* padding: 0 !important; */
     font-size: 1rem;
     color: #000;
     font-weight: bolder;
@@ -902,7 +902,21 @@ color: #000;font-weight: 500;
    
 
 }.accord{
+    margin-top: 10%;
+}.accordion-button::after {
+   
+    background-image: url('../Assets/image/svg xxxx.png') !important;
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+   
+}.accordion-button:not(.collapsed)::after {
+    background-image: url('../Assets/image/Rectangle 34356.png') !important;
+    transform: none !important;
+    height: 2px;
+}#quest{
     margin-top: 15%;
+}#box-1{
+    margin-top: 19%;
 }
 @media (max-width:578px) {
     .tav {
