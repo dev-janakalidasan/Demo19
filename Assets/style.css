@@ -733,6 +733,35 @@ font-weight: bold;
 }#sop-4{
     margin-top: 3%;
 }
+
+/* account */
+.trade-2 {
+    color: #fff;
+    margin-top: 30%;
+    font-size: 50px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(0deg, #B1BFE1 0%, #FFFFFF 29%, #E52C39 55%, #0085F3 85%, #E5E9F9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}.why-trade-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--third-color);
+}.crls{
+    width: 20rem;
+    height: 17rem !important;
+}.card-title-2{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-weight: bolder;
+    font-size: 30px;
+}.card-text-2{
+    display: block;
+text-align: center;
+font-size: 19px;
+}
 @media (max-width:578px) {
     .tav {
         margin-left: 56px;
