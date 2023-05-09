@@ -919,6 +919,16 @@ color: #000;font-weight: 500;
     margin-top: 19%;
 }
 @media (max-width:578px) {
+    .crls{
+        margin-top: 20px;
+    }
+    .clss {
+        background-color: #000;
+        height: auto;
+    }.cls {
+        background-color: black;
+        height: auto;
+    }
     .tav {
         margin-left: 56px;
     }
