@@ -196,7 +196,7 @@
 }
 
 .pys {
-    width: 530%;
+    width: 131%;
 }
 
 .los {
@@ -617,9 +617,8 @@
     }
 
     .pys {
-        width: 352%;
+        width: 125%;
     }
-
     #balc {
         background-image: none;
         background-position: center;
@@ -703,12 +702,10 @@
 
 @media (min-width:1500px) and (max-width:1890px) {
     .pys {
-        width: 315%;
+        width: 115%;
     }
-
     .fd {
-        margin-left: 15%;
-
+        margin-left: 5%;
     }
 
     #con-up {
@@ -732,7 +729,7 @@
 
 @media (min-width:1300px) and (max-width:1490px) {
     .pys {
-        width: 315%;
+        width: 115%;
     }
 
     .fd {
@@ -760,12 +757,11 @@
 
 @media(min-width:1900px) {
     .pys {
-        width: 315%;
+        width: 115%;
     }
 
     .fd {
-        margin-left: 10%;
-
+        margin-left: 5%;
     }
 
     #con-up {
