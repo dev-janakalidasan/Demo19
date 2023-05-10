@@ -1414,6 +1414,44 @@ width: 155px !important;
     text-align: center;
     margin-top: 15%;
 }
+/* index */
+#balcm {
+    background-image: url('../Assets/image/Group 162012.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 850px;
+    background-size: cover;
+}.we_are{
+    background: -webkit-linear-gradient(0deg,#E52C39 0%, #0085F3 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 40%;
+    width: 130px;
+}.trades {
+    color: #fff;
+    
+    font-size: 50px;
+    font-weight: 400;
+}.cfs{
+    color: #fff;
+    
+    font-size: 60px;
+    font-weight:500;
+
+}#ball-3{
+    width: 100% !important;
+}
+.handle-balls-3{
+    margin-top: 19%;
+}#currency_pair{
+    width: 80% !important;
+}.curr{
+    margin-top: 45%;
+}.curr-1{
+    margin-top: 65%;
+}.curr-2{
+    margin-top: 75%;
+}
 @media (max-width:578px) {
     .crls{
         margin-top: 20px;
