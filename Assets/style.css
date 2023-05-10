@@ -1488,6 +1488,42 @@ width: 155px !important;
     z-index: 1;
     top: -80px;
     right: 41px;
+}.bd{
+    padding-left: 12% !important;
+}#bubbles{
+    background-image: url('../Assets/image/image 1q.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -2%;
+}
+#back_black{
+    background-color: #000;
+    height: 700px;
+}.acca{
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,#E52C39 0%, #0085F3 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 7%;
+}.rigt{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+}.tras{
+    display: flex;
+    justify-content: center;
+    color: #747682;
+    font-size: 13px;
+}#curve{
+    width: 35%;
+ margin-top: 20px;
+}.curs{
+    display: flex !important;
+    justify-content: center !important;
 }
 @media (max-width:578px) {
     .crls{
@@ -1815,8 +1851,28 @@ width: 155px !important;
         height:1500px;
         background-color: #1f2024 !important;
      
+    }#balcm {
+        background-image: url('../Assets/image/Group 162012.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1283px;
+        background-size: cover;
+    }#currency_pair {
+        width: 90% !important;
+    }.curr {
+        margin-top: 120%;
+    }.curr-1 {
+        margin-top: 135%;
+    }.curr-2 {
+        margin-top: 150%;
+    }.lad {
+        height: 18rem !important;
+        width: 22rem !important;
+        border-radius: 10px !important;
+        background-image: linear-gradient(38.21deg, rgba(229, 44, 57, 0.15) 0.85%, rgba(0, 133, 243, 0.25) 55.96%, rgba(255, 255, 255, 0.8) 99.14%);
     }
 }
+
 
 @media (min-width:1300px) and (max-width:1490px) {
     .pys {
@@ -1846,6 +1902,25 @@ width: 155px !important;
     }.black_bx {
         background-color: #000;
         height: 450px;
+    }#balcm {
+        background-image: url('../Assets/image/Group 162012.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1283px;
+        background-size: cover;
+    }#currency_pair {
+        width: 90% !important;
+    }.curr {
+        margin-top: 120%;
+    }.curr-1 {
+        margin-top: 135%;
+    }.curr-2 {
+        margin-top: 150%;
+    }.lad {
+        height: 18rem !important;
+        width: 22rem !important;
+        border-radius: 10px !important;
+        background-image: linear-gradient(38.21deg, rgba(229, 44, 57, 0.15) 0.85%, rgba(0, 133, 243, 0.25) 55.96%, rgba(255, 255, 255, 0.8) 99.14%);
     }
 }
 
@@ -1922,5 +1997,24 @@ width: 155px !important;
         text-align: center;
         margin-top: 15%;
     }
-    
+    #balcm {
+        background-image: url('../Assets/image/Group 162012.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1283px;
+        background-size: cover;
+    }#currency_pair {
+        width: 90% !important;
+    }.curr {
+        margin-top: 120%;
+    }.curr-1 {
+        margin-top: 135%;
+    }.curr-2 {
+        margin-top: 150%;
+    }.lad {
+        height: 18rem !important;
+        width: 22rem !important;
+        border-radius: 10px !important;
+        background-image: linear-gradient(38.21deg, rgba(229, 44, 57, 0.15) 0.85%, rgba(0, 133, 243, 0.25) 55.96%, rgba(255, 255, 255, 0.8) 99.14%);
+    }
 }
