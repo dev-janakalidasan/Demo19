@@ -1395,6 +1395,21 @@ margin-top:35%;
         margin-top: 2%;
         line-height: 32px;
         font-size: 14px;
+    }.clsa {
+        background-image: url(../Assets/image/section.section-spacing-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 750px;
+    }#lo_bx {
+        width: 40%;
+    }.si_am-1 {
+        color: #000;
+        font-weight: 600;
+        font-size: 17px;
+        margin-top: 13%;
+    }.clrd-1{
+        margin-top: 20px;
     }
 }
 
@@ -1432,6 +1447,9 @@ margin-top:35%;
     }#box {
         width: 70%;
         margin-top: 100px;
+    }.black_bx {
+        background-color: #000;
+        height: 450px;
     }
 }
 
@@ -1458,8 +1476,11 @@ margin-top:35%;
         background-image: url('../Assets/image/Rectangle 1.png');
         background-position: center;
         background-repeat: no-repeat;
-        height: 800px;
+        height: 895px;
         background-size: 100%;
+    }.black_bx {
+        background-color: #000;
+        height: 450px;
     }
 }
 
@@ -1503,5 +1524,14 @@ margin-top:35%;
         margin-top: 100px;
     }#sop-1 {
         margin-top: 0%;
+    }.clsa {
+        background-image: url(../Assets/image/section.section-spacing-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+    }.black_bx {
+        background-color: #000;
+        height: 460px;
     }
 }
