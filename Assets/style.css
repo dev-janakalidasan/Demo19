@@ -1313,7 +1313,19 @@ font-size: 18px;
     border: 2px solid transparent;
     border-radius: 10px;
 
-}.one{
+}
+/* .ons:hover{
+    width: 75px;
+    height: 125px;
+    padding: 35px 0px 35px 0px;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(360deg, #E52C39 7.98%, #0085F3 100%) border-box;
+
+    border: 2px solid transparent;
+    border-radius: 10px;
+
+} */
+.one{
     display: flex;
     justify-content: center;
     background: -webkit-linear-gradient(0deg,#E52C39 0%, #0085F3 100% );
@@ -1348,6 +1360,9 @@ width: 155px !important;
     background: linear-gradient(#000, #000) padding-box,
         linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
     color: var(--second-color);
+}
+.row_bx{
+    width: 22px;
 }
 @media (max-width:578px) {
     .crls{

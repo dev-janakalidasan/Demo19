@@ -24,3 +24,6 @@ fetch("./footer.html")
     .then(data => {
         document.querySelector("footer").innerHTML = data;
     });
+
+
+ 
