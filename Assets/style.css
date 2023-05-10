@@ -1634,6 +1634,64 @@ width: 155px !important;
         margin-top: 13%;
     }.clrd-1{
         margin-top: 20px;
+    }.handle-balls-1 {
+        margin-top: 15%;
+    }.mts-1 {
+        margin-top: 0% !important;
+    }#two_carem {
+        margin-top: 0%;
+    }#mt_cirs {
+        margin-top: 0%;
+    }.brown_ball {
+        background-image: url(../Assets/image/section.section-spacing-1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }#win {
+        width: 20%;
+        margin-top: 10%;
+        height: 115%;
+        margin-top: -2%;
+    }#gru_fs {
+        width: 4%;
+        height: 17px;
+    }.down_mt {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        text-decoration-line: none;
+        color: #fff !important;
+        height: 50px;
+    }#lines {
+        border-right: 0;
+    }.os_5 {
+        color: #fff;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }.for_alls {
+        color: #fff;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }#cirs {
+        width: 45% !important;
+    }.pro-our {
+        font-size: 32px;
+        
+    }.ons {
+      
+        margin-top: 10px;
+    }.smal-lie {
+       
+        margin-top: 10%;
+    }#susms{
+        margin-top: 7%;
+    }
+    #sum{
+        display: flex;
+        justify-content: center;
     }
 }
 
