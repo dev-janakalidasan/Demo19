@@ -1380,9 +1380,9 @@ width: 155px !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:1300px;
+    height:1450px;
     background-color: #1f2024 !important;
- 
+ margin-bottom: -10%;
 }#cirs{
     width: 10% !important;
 }#rem .table thead tr th{
@@ -1451,6 +1451,43 @@ width: 155px !important;
     margin-top: 65%;
 }.curr-2{
     margin-top: 75%;
+}.when_thick{
+    color: #000;
+    font-weight:700;
+    margin-top: 4%;
+
+}.mat{
+    color:#747682;
+    font-size: 14px;
+}.we_are-1{
+    background: -webkit-linear-gradient(0deg,#E52C39 0%, #0085F3 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15%;
+    width: 130px;
+}.lad{
+    width: 20rem !important;
+    
+   border-radius: 10px !important;
+    background-image: linear-gradient(38.21deg, rgba(229, 44, 57, 0.15) 0.85%, rgba(0, 133, 243, 0.25) 55.96%, rgba(255, 255, 255, 0.8) 99.14%);
+}.twenty{
+    font-weight: 700;
+    color: #fff;
+   
+}.tra-1{
+    color: #fff;
+}#big {
+    width: 25%;
+    position: relative;
+    top: 45px;
+    z-index: 1;
+    left: 42%;
+}#big-1 {
+    width: 12%;
+    position: relative;
+    z-index: 1;
+    top: -80px;
+    right: 41px;
 }
 @media (max-width:578px) {
     .crls{
