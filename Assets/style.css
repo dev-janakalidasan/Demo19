@@ -307,8 +307,8 @@
     background-color: transparent;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 20px 20px 20px 20px;
     font-weight: 600;
     background: linear-gradient(#000, #000) padding-box,
@@ -1189,6 +1189,103 @@ color: #000;font-weight: 500;
 margin-top:35%;
 }.loll{
     margin-top: 13%;
+}.tare-4 {
+    font-size: 18px;
+    color: #fff;
+}
+/* platform */
+.mts-1{
+    background: -webkit-linear-gradient(0deg,#E52C39 0%, #0085F3 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 50px;
+    margin-top: -45% !important;
+}.is_meta{
+    font-weight: 600;
+    color: #000;
+}.sit_con{
+    font-size: 14px;
+    margin-top: 4%;
+}#mt_cirs{
+    width: 80%;
+    margin-top: -55%;
+}.brown_ball{
+    background-image: url('../Assets/image/section.section-spacing-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}#two_carem{
+    width: 6%;
+    margin-top: -10%;
+    margin-left: -2%;
+}.spans{
+    display: flex;
+    justify-content: end;
+    margin-top: -5%;
+}#lap_ph{
+    width: 75%;
+}.meta_5{
+    background: -webkit-linear-gradient(0deg,#E52C39 0%, #0085F3 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 150px;
+    letter-spacing: 2px;
+}.ad_trade{
+    font-weight: 700;
+    color: #fff;
+
+}.don{
+    font-size: 14px;
+    color: #747682;
+    margin-top: 4%;
+    line-height: 24px;
+}#sop-66{
+    margin-top: 10%;
+}.clms{
+    width: 55rem;
+    margin-top: 2%;
+    padding: 15px 10px 15px 10px;
+    background-image: linear-gradient(180deg,#0085F3 0%, #E52C39 100%);
+    border-radius: 15px !important;
+}.d-centers{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}.os_5{
+    color: #fff;
+font-size: 18px;
+}.for_alls{
+    color: #fff;
+    font-size: 12px;
+}.d_os{
+   
+    margin-top: 12%;
+}#lines{
+    border-right: 2px solid #fff;
+}#win{
+    width: 25%;
+    margin-top: 10%;
+}.win{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}.windows{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    height: 20px !important;
+}.down_mt{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: none;
+    color: #fff !important;
+}#gru_fs{
+    width: 9%;
+}.down_mt:hover{
+    color: #000 !important;
 }
 @media (max-width:578px) {
     .crls{
