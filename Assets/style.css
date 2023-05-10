@@ -560,15 +560,15 @@ font-weight: 500;
     margin-top: 5%;
 }.dec{
     width: 40% !important;
-}.table thead tr th{
+} #res_tab .table thead tr th{
     border: none !important;
     font-weight: bolder;
-}.table tbody tr td{
+}#res_tab .table tbody tr td{
     border: none !important;
     padding-top: 30px;
 
 }
-.table tbody tr:hover{
+#res_tab .table tbody tr:hover{
     border: none !important;
     padding-top: 30px;
     background-image: linear-gradient(180deg,#0085F3 0%, #E52C39 100%);;
@@ -1363,6 +1363,56 @@ width: 155px !important;
 }
 .row_bx{
     width: 22px;
+}.meta{
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,#E52C39 0%, #0085F3 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 5%;
+}.now_ava{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-weight: bolder;
+}.full-balls{
+    background-image: url('../Assets/image/Group 162011.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1300px;
+    background-color: #1f2024 !important;
+ 
+}#cirs{
+    width: 10% !important;
+}#rem .table thead tr th{
+    color: #fff !important;
+    border: none !important;
+    text-align: center;
+  
+
+}
+#rem .table tbody tr td{
+    color: #fff !important;
+    border: none !important;
+  text-align: center;
+ padding-top: 2%;
+
+}#rem .table tbody .drs{
+    background-image: linear-gradient(180deg,#0085F3 0%, #E52C39 100%);
+}
+.table{
+    width: 100%;
+}#rem .table thead tr .sam{
+    width: 30%;
+}.pro-our{
+    font-size: 55px;
+    color: #fff;
+    font-weight:600;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
 }
 @media (max-width:578px) {
     .crls{
@@ -1624,6 +1674,14 @@ width: 155px !important;
     }.black_bx {
         background-color: #000;
         height: 450px;
+    }.full-balls{
+        background-image: url('../Assets/image/Group 162011.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:1500px;
+        background-color: #1f2024 !important;
+     
     }
 }
 
@@ -1708,4 +1766,28 @@ width: 155px !important;
         background-color: #000;
         height: 460px;
     }
+    .brown_ball {
+        background-image: url(../Assets/image/section.section-spacing-1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 820px;
+    }.full-balls{
+        background-image: url('../Assets/image/Group 162011.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:1800px;
+        background-color: #1f2024 !important;
+     
+    }.pro-our {
+        font-size: 80px;
+        color: #fff;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 15%;
+    }
+    
 }
