@@ -1546,14 +1546,14 @@ width: 155px !important;
 }.clmss {
     width: 72rem;
     margin-top: 2%;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 20px;
     height: 8rem !important;
-    background-image: linear-gradient(180deg,#0085F3 0%, #E52C39 100%);
+    background-image: linear-gradient(45deg, #E52C39 0%,#0085F3 100%);
     border-radius: 55px 55px 55px 55px !important;
 }.d-centersn{
     display: flex;
     justify-content: center;
-    margin-top: 8%;
+    margin-top: 4%;
 }.min_dep{
     color:#fff;
     display: flex;
@@ -1613,6 +1613,38 @@ font-size: 10px;
     background: linear-gradient(#fff, #fff) padding-box,
         linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
     color: var(--third-color);
+}
+#small_bx{
+    width: 5% !important;
+
+}.sm_bx{
+    display: flex;
+    justify-content: end;
+    margin-top: -11% !important;
+}#small_bx_1{
+    width: 10%;
+}.sm_bx-1{
+    display: flex;
+    justify-content: end;
+    margin-top: -10% !important;
+    margin-left: 0%;
+}#small_bx_12{
+   height: 23px;
+}.sm_bx-12{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 110px;
+}.sm_bx-11{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45px;
+}.sm_bx-10{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
 }
 @media (max-width:578px) {
     .crls{
