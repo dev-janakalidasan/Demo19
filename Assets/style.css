@@ -2262,20 +2262,55 @@
 }
 
 #back_pink {
-    background-image: url('../Assets/image/Rectangle 9.png');
+    background-image: url('../Assets/image/Group 15.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 550px;
+    height: 600px;
     margin-top: 5%;
+margin-bottom: -127px;
+
 }
 
-#non_ball {
+/* #non_ball {
     height: 400px;
+    margin-left: 35%;
     position: relative;
-  top: 70px;
-}
+    margin-top: -20%;
 
+} */
+.are{
+    color: #fff;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   padding-top: 14%;
+   font-size: 40px;
+}.accessa{
+    color: #fff;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+}.of_word{
+    color: #fff;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+}
+.sss{
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}.lasts{
+    background: linear-gradient(to right, #0085F3 7.98%, #E52C39 100%) border-box;
+    height: 2px;
+    width: 100%;
+    position: relative;
+    top: 127px;
+}
 @media (max-width:578px) {
     .crls {
         margin-top: 20px;
