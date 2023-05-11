@@ -2407,6 +2407,15 @@ margin-bottom: -127px;
         background-repeat: no-repeat;
         height: 1450px;
         background-size: cover;
+    }#back_pink {
+        background-image:none !important;
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: -127px;
     }
     .crls {
         margin-top: 20px;
