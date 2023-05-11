@@ -2312,6 +2312,22 @@ margin-bottom: -127px;
     top: 127px;
 }
 @media (max-width:578px) {
+    .of_word {
+        color: #fff;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        font-size: 55px;
+        text-align: center;
+    }
+    .accessa {
+        color: #fff;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        text-align: center;
+    }
     #big {
         width: 25%;
         position: relative;
@@ -2413,9 +2429,25 @@ margin-bottom: -127px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
-        height: auto;
+        height: 500px;
         margin-top: 5%;
         margin-bottom: -127px;
+    }.lasts {
+        background: linear-gradient(to right, #0085F3 7.98%, #E52C39 100%) border-box;
+        height: 2px;
+        width: 100%;
+        position: relative;
+        top: 35px;
+    }#start {
+        width: 100%;
+    }.are {
+        color: #fff;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-top: 14%;
+        font-size: 25px;
     }
     .crls {
         margin-top: 20px;
