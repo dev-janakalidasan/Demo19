@@ -26,4 +26,14 @@ fetch("./footer.html")
     });
 
 
- 
+    const myButton = document.getElementById('color-box');
+    // const myButton1 = document.getElementById('color-box-1');
+    // const myButton2 = document.getElementById('color-box-2');
+    const fi1 = document.getElementById('fi_1');
+    const fi2 = document.getElementById('fi_2');
+
+    myButton.addEventListener('click', () => {
+      fi1.style.display = fi1.style.display === 'none' ? 'block' : 'none';
+      fi2.style.display = fi2.style.display === 'block' ? 'none' : 'block';
+    
+    });
