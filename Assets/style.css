@@ -2323,6 +2323,25 @@ margin-bottom: -127px;
     cursor: pointer !important;
 }#deposit-box1, #deposit-box2, #deposit-box3{
     margin-top: 60px;
+}.body_sim{
+    width: 23rem !important;
+height: 8rem !important;
+border: none !important;
+}.on_fun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.re{
+    margin-top: 20px !important;
+}.card-title-121{
+    font-size: 15px;
+}.card-text-121{
+    font-size: 13px;
+}.body-1, .body-2, .body-3, .body-4{
+    display: none !important;
+}.flx_change{
+    flex-direction: column !important;
+   
 }
 @media (max-width:578px) {
     #box-2 {
