@@ -2312,6 +2312,102 @@ margin-bottom: -127px;
     top: 127px;
 }
 @media (max-width:578px) {
+    #big {
+        width: 25%;
+        position: relative;
+        top: 45px;
+        z-index: 1;
+        left: 60%;
+    }#big-1 {
+        width: 12%;
+        position: relative;
+        z-index: 1;
+        top: -80px;
+        right: 15px;
+    }#start {
+        width: 17%;
+    }.vip {
+        color: #fff;
+        font-size: 20px;
+        margin-top: -46px;
+    }#bx-sapa{
+        margin-top: 45px;
+    }.left_start {
+        margin-left: 134px !important;
+        margin-top: -2% !important;
+    }.clmss {
+        width: 72rem;
+        margin-top: 2%;
+        padding: 0px 20px 0px 20px;
+        height: 8rem !important;
+        background-image: linear-gradient(45deg, #E52C39 0%, #0085F3 100%);
+        border-radius: 55px 55px 55px 55px !important;
+        height: auto !important;
+    }#back_black {
+        background-color: #000;
+        height: 1655px;
+    }.op_acount{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }.cnt {
+        background-color: #303138;
+        color: black;
+        box-shadow: 0px 0px 5px black;
+        width: 70%;
+        padding: 0px 0px 10px 0px !important;
+        border-radius: 10px !important;
+    }.reds_blue {
+        background-image: url('../Assets/image/Rectangle 87.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1415px;
+    }.becom_part {
+        width: 22.5rem;
+        background-color: #212125 !important;
+    }#forward {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }.host {
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 33px;
+    }#forwards {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }#coin {
+        position: relative;
+        width: 35% !important;
+        position: relative;
+        width: 28% !important;
+        top: -80px;
+        right: -5%;
+    }#forwordss {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px !important;
+    }
+    .curr {
+        margin-top: 5%;
+    }.curr-1 {
+        margin-top: 5%;
+    }.curr-2 {
+        margin-top: 5%;
+    }
+    #balcm {
+        background-image: url('../Assets/image/Group 162012.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1450px;
+        background-size: cover;
+    }
     .crls {
         margin-top: 20px;
     }
@@ -2735,6 +2831,23 @@ margin-bottom: -127px;
         width: 22rem !important;
         border-radius: 10px !important;
         background-image: linear-gradient(38.21deg, rgba(229, 44, 57, 0.15) 0.85%, rgba(0, 133, 243, 0.25) 55.96%, rgba(255, 255, 255, 0.8) 99.14%);
+    }#back_black {
+        background-color: #000;
+        height: 1022px;
+    }#back_pink {
+        background-image: url('../Assets/image/Group 15.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 765px;
+        margin-top: 5%;
+        margin-bottom: -190px;
+    }.lasts {
+        background: linear-gradient(to right, #0085F3 7.98%, #E52C39 100%) border-box;
+        height: 2px;
+        width: 100%;
+        position: relative;
+        top: 189px;
     }
 }
 
@@ -2800,6 +2913,9 @@ margin-bottom: -127px;
         width: 22rem !important;
         border-radius: 10px !important;
         background-image: linear-gradient(38.21deg, rgba(229, 44, 57, 0.15) 0.85%, rgba(0, 133, 243, 0.25) 55.96%, rgba(255, 255, 255, 0.8) 99.14%);
+    }#back_black {
+        background-color: #000;
+        height: 1022px;
     }
 }
 
@@ -2923,5 +3039,52 @@ margin-bottom: -127px;
         width: 22rem !important;
         border-radius: 10px !important;
         background-image: linear-gradient(38.21deg, rgba(229, 44, 57, 0.15) 0.85%, rgba(0, 133, 243, 0.25) 55.96%, rgba(255, 255, 255, 0.8) 99.14%);
+    }
+    #back_black {
+        background-color: #000;
+        height: 1022px;
+    }#forward {
+        margin-left: -100px;
+    }#coin {
+      
+      
+        position: relative;
+        width: 28% !important;
+        top: -139px;
+        right: 26%;
+    }#back_pink {
+        background-image: url('../Assets/image/Group 15.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 765px;
+        margin-top: 5%;
+        margin-bottom: -190px;
+    }.lasts {
+        background: linear-gradient(to right, #0085F3 7.98%, #E52C39 100%) border-box;
+        height: 2px;
+        width: 100%;
+        position: relative;
+        top: 189px;
+    }.are {
+        color: #fff;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-top: 14%;
+        font-size: 54px;
+    }.of_word {
+        color: #fff;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        font-size: 75px;
+    }.accessa {
+        color: #fff;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
     }
 }
