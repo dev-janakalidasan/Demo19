@@ -2310,8 +2310,18 @@ margin-bottom: -127px;
     width: 100%;
     position: relative;
     top: 127px;
+}#pj{
+    display: none !important;
 }
 @media (max-width:578px) {
+    #lp{
+        display: none !important;
+    }#pj{
+        display: block !important;
+    }
+    .widget{
+        margin-top: 20px !important;
+    }
     .of_word {
         color: #fff;
         font-weight: normal;
@@ -2438,7 +2448,9 @@ margin-bottom: -127px;
         width: 100%;
         position: relative;
         top: 35px;
-    }#start {
+    }
+    #start {
+
         width: 100%;
     }.are {
         color: #fff;
@@ -2788,6 +2800,14 @@ margin-bottom: -127px;
 }
 
 @media (min-width:1500px) and (max-width:1890px) {
+    #coin {
+        position: relative;
+        width: 35% !important;
+        position: relative;
+        width: 28% !important;
+        top: -137px;
+        right: 27%;
+    }
     .pys {
         width: 115%;
     }
@@ -2889,11 +2909,69 @@ margin-bottom: -127px;
         width: 100%;
         position: relative;
         top: 189px;
+    }#forward {
+        margin-left: -105px;
+    }.are {
+        color: #fff;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-top: 18%;
+        font-size: 40px;
+    }#back_pink {
+        background-image: url('../Assets/image/Group 15.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 600px;
+        margin-top: 5%;
+        margin-bottom: -161px;
+    }.lasts {
+        background: linear-gradient(to right, #0085F3 7.98%, #E52C39 100%) border-box;
+        height: 2px;
+        width: 100%;
+        position: relative;
+        top: 160px;
     }
 }
 
 
 @media (min-width:1300px) and (max-width:1490px) {
+    #back_pink {
+        background-image: url('../Assets/image/Group 15.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 600px;
+        margin-top: 5%;
+        margin-bottom: -143px;
+    }.lasts {
+        background: linear-gradient(to right, #0085F3 7.98%, #E52C39 100%) border-box;
+        height: 2px;
+        width: 100%;
+        position: relative;
+        top: 143px;
+    }
+    #forward {
+        margin-left: -105px;
+    }.are {
+        color: #fff;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-top: 14%;
+        font-size: 40px;
+    }
+    #coin {
+        position: relative;
+        width: 35% !important;
+        position: relative;
+        width: 28% !important;
+        top: -137px;
+        right: 27%;
+    }
     .pys {
         width: 115%;
     }
@@ -2918,6 +2996,8 @@ margin-bottom: -127px;
         background-repeat: no-repeat;
         height: 895px;
         background-size: 100%;
+    }#forward {
+        margin-left: -105px;
     }
 
     .black_bx {
