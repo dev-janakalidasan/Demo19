@@ -1013,6 +1013,8 @@
 
 .whether {
     font-size: 12px;
+}.accordion-item{
+    border: none !important;
 }
 
 .accordion-button {
@@ -1445,7 +1447,7 @@
 }
 
 .tare-4 {
-    font-size: 18px;
+    font-size: 17px;
     color: #fff;
 }
 
@@ -2382,7 +2384,11 @@
 }
 
 @media (max-width:578px) {
-
+    .low {
+        margin-left: -27px !important;
+        font-size: 13px;
+        font-weight: 700;
+    }
     /* mobile-acc */
     #thirds .accordion-button {
         cursor: pointer;
