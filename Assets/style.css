@@ -1648,8 +1648,9 @@
 .smal-lie {
     background: linear-gradient(to right, #0085F3 7.98%, #E52C39 100%) border-box;
     height: 3px;
-    width: 80%;
+    width: 60%;
     margin-top: 38%;
+    margin-left: 80px;
 }
 
 #susms {
@@ -3436,6 +3437,7 @@
     height: 100px;
     margin-left: 15px;
     border: none !important;
+    
 }
 
 .new .accordion.width .card .card-header {
@@ -3510,14 +3512,17 @@
     background-color: #f3f4f5 !important;
 }
 
-.hidden {
-    background: none !important;
-}
-
-/* .card-header {
-    pointer-events: none !important;
-} */
 
 .new .card-header:not(.collapsed)  {
     pointer-events: none !important;
+}.hid{
+ background: none !important;
+}
+.gra{
+    background-color: #f3f4f5 !important;
+}
+.gras{
+  
+    width: 80px;
+   
 }
