@@ -20,8 +20,15 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/155ad7575b.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://kit.fontawesome.com/155ad7575b.js" crossorigin="anonymous"></script> -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js">
+</script>
 
 <body>
   <!--header-->
@@ -688,9 +695,102 @@
     <h6 class="re_how">HOW TO REGISTER?</h6>
     <h1 class="sta">Start Trading in 4 Simple Steps</h1>
     <p class="follws">Follow these steps to begin your journey with us within minutes</p>
-    <div class="container d-flex justify-content-center">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-12 d-flex justify-content-center">
+        <!-- <div class="col-lg-1 col-sm-12 col-md-1"></div> -->
+        <div class="col-lg-7 col-md-7 col-sm-12 new">
+          <div class="accordion sacc width" id="accordionHorizontalExample">
+
+            <!-- Accordion group creating-->
+            <div class="card acc_new">
+              <div class="card-header" data-toggle="collapse" data-target="#collapseOnees">
+                <h1 class="accordion_new-1">1</h1>
+              </div>
+              <div id="collapseOnees" class="collapse show width" data-parent="#accordionHorizontalExample">
+                <div class="card-body">
+                  <h5 class="ac_reg">Register</h5>
+                  <p class="acc_fill">Fill in your information and upload the
+
+                    documents</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-toggle="collapse" data-target="#collapseTwoes">
+                <h1 class="accordion_new">2</h1>
+              </div>
+              <div id="collapseTwoes" class="collapse width" data-parent="#accordionHorizontalExample">
+                <div class="card-body">
+                  <h5 class="ac_reg">Register</h5>
+                  <p class="acc_fill">Fill in your information and upload the
+
+                    documents</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" data-toggle="collapse" data-target="#collapseThreees">
+                  <h1 class="accordion_new">3</h1>
+                </div>
+                <div id="collapseThreees" class="collapse width" data-parent="#accordionHorizontalExample">
+                  <div class="card-body">
+                    <h5 class="ac_reg">Register</h5>
+                    <p class="acc_fill">Fill in your information and upload the
+
+                      documents</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" data-toggle="collapse" data-target="#collapsefourthes">
+                  <h1 class="accordion_new">4</h1>
+                </div>
+                <div id="collapsefourthes" class="collapse width" data-parent="#accordionHorizontalExample">
+                  <div class="card-body">
+                    <h5 class="ac_reg">Register</h5>
+                    <p class="acc_fill">Fill in your information and upload the
+
+                      documents</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-12 news-s">
+          <div class="row">
+            <div class="col-lg-6 col-md-66 col-sm-12 ">
+              <h6 class="smal-lie"></h6>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12" id="sum">
+              <button class="btn" id="susms">Let's do it</button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="col-lg-2 col-md-2 col-sm-12 d-flex justify-content-center">
           <div class="d-flex flx_change">
             <div class="ons" id="nn">
               <h1 class="one">1</h1>
@@ -796,7 +896,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- <div class="col-lg-2 col-md-2 col-sm-12 d-flex justify-content-center">
           <div class="ons">
@@ -909,6 +1009,21 @@
 
   </script>
   <script>
+    var horizontalAccordions = $(".accordion.width");
+
+    horizontalAccordions.each(function () {
+      var accordion = $(this);
+      var collapse = accordion.find(".collapse");
+      var bodies = collapse.find("> *");
+      accordion.height(accordion.height());
+      bodies.width(bodies.eq(0).width());
+      collapse.not(".show").each(function () {
+        $(this).parent().find("[data-toggle='collapse']")
+          .addClass("collapsed");
+      });
+    });
+  </script>
+  <script>
 
 
     $(document).ready(function () {
@@ -946,12 +1061,36 @@
 
 
 
-    // $("#white-skin").on("click", function () {
-    //   $(".tr-skin").removeClass("blg-skin1");
-    //   $(".tr-skin").addClass("blg-skin2");
-    // });
-  </script>
 
+  </script>
+  <script>
+    $(document).ready(function () {
+      var originalWidth = $('.card-header').width(); // store the original width of the card
+
+      $('.card-header').click(function () {
+        $(this).closest('.card-header').animate({ width: '80px', transition:'.5s' }); 
+        // change the width to 50%
+        $(this).closest('.card-header .collapsed').animate({ transition:'.5s' }); 
+      });
+
+      $('.card-header').click(function () {
+        $('.card-header').width(originalWidth); // reset the width to the original value
+
+
+      });
+
+    });
+  </script>
+  <!-- small size -->
+  <!-- <script>
+  $(document).ready(function() {
+  $('.card-header').one('click', function() {
+    $(this).closest('.card-header').animate({ width: '70px' }); // change the width to 50%
+    // add code here to execute only once
+  });
+  
+});
+ </script> -->
 </body>
 
 </html>
