@@ -186,12 +186,13 @@
 .lolo-1 {
 
     background: -webkit-linear-gradient(0deg, #E52C39 7.98%, #0085F3 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
     font-style: normal;
     font-size: 45px;
-    margin-top: 10px;
+    margin-top: 110px;
     width: 150px;
 }
 
@@ -260,9 +261,8 @@
 
 #con-up {
     padding: 25px 0px 15px 45px;
-    position: absolute;
-    margin-top: -65px;
-    margin-left: 9%;
+    position: relative;
+    top: 63px;
     border-radius: 15px 15px 15px 15px;
     background-color: #303138;
     width: 80%;
@@ -275,6 +275,10 @@
 .fd {
     margin-left: 10%;
 
+}
+
+.foot-align {
+    margin-top: 100px;
 }
 
 /* instruments */
@@ -1013,7 +1017,9 @@
 
 .whether {
     font-size: 12px;
-}.accordion-item{
+}
+
+.accordion-item {
     border: none !important;
 }
 
@@ -1707,7 +1713,7 @@
     background-size: cover;
     height: 1450px;
     background-color: #1f2024 !important;
-    margin-bottom: -10%;
+    margin-bottom: -20%;
 }
 
 #cirs {
@@ -2265,8 +2271,7 @@
 }
 
 #upi {
-    height: 100px !important;
-    width: 202px;
+    height: 70px !important;
 }
 
 #back_pink {
@@ -2276,7 +2281,7 @@
     background-size: 100%;
     height: 600px;
     margin-top: 5%;
-    margin-bottom: -127px;
+    margin-bottom: -250px;
 
 }
 
@@ -2324,7 +2329,7 @@
     height: 2px;
     width: 100%;
     position: relative;
-    top: 127px;
+    top: 247px;
 }
 
 #pj {
@@ -2384,11 +2389,21 @@
 }
 
 @media (max-width:578px) {
+    .full-balls {
+        background-image: url(../Assets/image/Group 162011.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1420px;
+        background-color: #1f2024 !important;
+        margin-bottom: -38%;
+    }
     .low {
         margin-left: -27px !important;
         font-size: 13px;
         font-weight: 700;
     }
+
     /* mobile-acc */
     #thirds .accordion-button {
         cursor: pointer;
@@ -2752,7 +2767,7 @@
         font-weight: bolder;
         font-style: normal;
         font-size: 45px;
-        margin-top: 175px;
+        margin-top: 54px;
     }
 
     #susm {
@@ -2792,10 +2807,8 @@
     }
 
     #con-up {
-        padding: 25px 0px 15px 45px;
-        position: absolute;
-        margin-top: 0px;
-        margin-left: -2%;
+        padding: 25px 13px 15px 13px;
+        position: relative;
         border-radius: 15px 15px 15px 15px;
         background-color: #303138;
         width: 100%;
@@ -2885,10 +2898,6 @@
     #co {
         display: flex;
         justify-content: center;
-    }
-
-    #eo {
-        margin-left: -15%;
     }
 
     .flag {
@@ -3052,6 +3061,10 @@
         display: flex;
         justify-content: center;
     }
+
+    .foot-align {
+        margin-top: 0px;
+    }
 }
 
 @media (min-width:1500px) and (max-width:1890px) {
@@ -3083,7 +3096,7 @@
 
     #con-up {
         padding: 25px 0px 15px 45px;
-        position: absolute;
+        position: relative;
         margin-top: -65px;
         margin-left: 13%;
         border-radius: 15px 15px 15px 15px;
@@ -3194,7 +3207,7 @@
         background-size: 100%;
         height: 600px;
         margin-top: 5%;
-        margin-bottom: -161px;
+        margin-bottom: -216px;
     }
 
     .lasts {
@@ -3202,7 +3215,7 @@
         height: 2px;
         width: 100%;
         position: relative;
-        top: 160px;
+        top: 213px;
     }
 }
 
@@ -3215,7 +3228,7 @@
         background-size: 100%;
         height: 600px;
         margin-top: 5%;
-        margin-bottom: -143px;
+        margin-bottom: -199px;
     }
 
     .lasts {
@@ -3223,7 +3236,7 @@
         height: 2px;
         width: 100%;
         position: relative;
-        top: 143px;
+        top: 197px;
     }
 
     #forward {
@@ -3259,7 +3272,7 @@
 
     #con-up {
         padding: 25px 0px 15px 45px;
-        position: absolute;
+        position: relative;
         margin-top: -65px;
         margin-left: 5%;
         border-radius: 15px 15px 15px 15px;
@@ -3332,7 +3345,7 @@
 
     #con-up {
         padding: 25px 0px 15px 45px;
-        position: absolute;
+        position: relative;
         margin-top: -65px;
         margin-left: 15%;
         border-radius: 15px 15px 15px 15px;
@@ -3468,7 +3481,7 @@
         background-size: 100%;
         height: 765px;
         margin-top: 5%;
-        margin-bottom: -190px;
+        margin-bottom: -248px;
     }
 
     .lasts {
@@ -3476,7 +3489,7 @@
         height: 2px;
         width: 100%;
         position: relative;
-        top: 189px;
+        top: 246px;
     }
 
     .are {
@@ -3623,6 +3636,7 @@
     width: 80px;
 
 }
+
 /*  */
 .new-1 .accordion {
     text-align: center;
