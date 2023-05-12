@@ -37,3 +37,6 @@ fetch("./footer.html")
       fi2.style.display = fi2.style.display === 'block' ? 'none' : 'block';
     
     });
+
+
+    

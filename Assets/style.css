@@ -2408,6 +2408,8 @@
 
     #thirds .accordion-button::after {
         background-image: none !important;
+        width: 0;
+        margin-left: 0;
     }
 
     #thirds .accordion-button {
@@ -2424,6 +2426,10 @@
     #thirds .movile-gra {
         display: flex;
         justify-content: center;
+        background: -webkit-linear-gradient(0deg, #E52C39 7.98%, #0085F3 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
 
@@ -3603,6 +3609,115 @@
 }
 
 .gra {
+    background-color: #f3f4f5 !important;
+}
+
+.gras {
+
+    width: 80px;
+
+}
+/*  */
+.new-1 .accordion {
+    text-align: center;
+}
+
+.new-1 .accordion.width {
+    display: flex;
+    width: 200px;
+}
+
+.new-1 .accordion.width .card {
+    flex-direction: row;
+    min-width: min-content;
+    height: 100px;
+    margin-left: 15px;
+    border: none !important;
+
+}
+
+.new-1 .accordion.width .card .card-header {
+    cursor: pointer;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    background-color: white;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(360deg, #E52C39 7.98%, #0085F3 100%) border-box;
+
+    border: 2px solid transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.new-1 .card-body {
+    width: 256px;
+
+}
+
+.new-1 .collapsing.width {
+    transition: width 0.5s ease;
+    height: auto;
+    width: 10px;
+}
+
+.new-1 .ac_reg {
+    display: flex;
+    justify-content: start;
+    font-size: 12px;
+}
+
+.new-1 .acc_fill {
+    display: flex;
+    justify-content: start;
+    text-align: initial;
+    font-size: 12px;
+}
+
+.new-1 {
+    margin-top: 4% !important;
+}
+
+.news-s {
+    margin-top: 1% !important;
+}
+
+#sum {
+    margin-top: -1%;
+}
+
+.new-1 .accordion_new {
+    rotate: 90deg !important;
+    display: flex;
+    background: -webkit-linear-gradient(0deg, #E52C39 7.98%, #0085F3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.new-1 .accordion_new-1 {
+    rotate: 90deg !important;
+    display: flex;
+    background: -webkit-linear-gradient(0deg, #E52C39 7.98%, #0085F3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#acc_col_asa {
+    background-color: #f3f4f5 !important;
+}
+
+
+.new_1 .card-header:not(.collapsed) {
+    pointer-events: none !important;
+}
+
+.hids {
+    background: none !important;
+}
+
+.graa {
     background-color: #f3f4f5 !important;
 }
 
