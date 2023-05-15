@@ -3710,6 +3710,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 5px 0px 0px 0px;
 }
 
 #acc_col_asa {
