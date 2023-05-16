@@ -20,7 +20,7 @@
 }
 
 #navbarSupportedContent ul li a {
-    margin-left: 17px;
+    margin-left: 23px;
     font-size: 14px;
 }
 
@@ -128,6 +128,7 @@
 
 #en {
     font-size: 14px !important;
+   
 }
 
 .navbar-bg {
@@ -363,6 +364,7 @@
 
 #pips {
     width: 30%;
+    margin-bottom: 7px;
 }
 
 .spre {
@@ -424,6 +426,7 @@
 
 #pips-1 {
     width: 30%;
+    margin-bottom: 7px;
 }
 
 .spre-1 {
@@ -471,12 +474,9 @@
     justify-content: center;
     text-align: center;
     margin-top: 100px;
-    /* background: -webkit-linear-gradient(0deg, #E52C39 7.98%, #0085F3 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 44%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    letter-spacing: 2px;
-    width:100px; */
     letter-spacing: 2px;
 }
 
@@ -570,7 +570,7 @@
 }
 
 #sop {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .dec {
@@ -586,14 +586,16 @@
     border: none !important;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-weight: bold;
 }
 
-#res_tab .table tbody tr:hover {
+#res_tab .table tbody .hor:hover {
     border: none !important;
     padding-top: 30px;
     background-image: linear-gradient(180deg, #0085F3 0%, #E52C39 100%);
     ;
     color: #fff;
+    cursor: pointer;
 }
 
 #sop-1 {
@@ -673,7 +675,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    background: -webkit-linear-gradient(0deg, #B1BFE1 0%, #FFFFFF 29%, #E52C39 55%, #0085F3 85%, #E5E9F9 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 44%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 7%;
@@ -763,7 +765,7 @@
 }
 
 #sop-2 {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .cfd {
@@ -923,7 +925,7 @@
 
 .We {
     padding-top: 20%;
-    background: -webkit-linear-gradient(0deg, #B1BFE1 0%, #FFFFFF 29%, #E52C39 55%, #0085F3 85%, #E5E9F9 100%);
+    background: -webkit-linear-gradient(0deg,#E52C39 0%, #0085F3 25%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 1px;
@@ -1099,10 +1101,11 @@
 }
 
 .stroy {
-    letter-spacing: 2px;
-    background: -webkit-linear-gradient(0deg, #0085F3 0%, #E52C39 100%);
+
+    background: -webkit-linear-gradient(0deg, #E52C39 17%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+ 
     width: 150px;
 }
 
@@ -1124,7 +1127,7 @@
 
 .card-title-3 {
     letter-spacing: 2px;
-    background: -webkit-linear-gradient(0deg, #0085F3 0%, #E52C39 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 17%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: 150px;
@@ -1162,7 +1165,7 @@
     display: flex;
     justify-content: center;
     letter-spacing: 2px;
-    background: -webkit-linear-gradient(0deg, #0085F3 0%, #E52C39 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 42%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 7%;
@@ -1213,7 +1216,7 @@
     display: flex;
     justify-content: center;
     letter-spacing: 2px;
-    background: -webkit-linear-gradient(0deg, #0085F3 0%, #E52C39 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 42%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1230,6 +1233,7 @@
     display: flex;
     justify-content: center;
     font-size: 15px;
+    text-align: center;
 }
 
 .clrd-1 {
@@ -1279,7 +1283,7 @@
         linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
     border-radius: 50em;
     border: 2px solid transparent;
-    margin-top: 7%;
+    margin-top: 5%;
 
 
 }
@@ -1394,6 +1398,7 @@
     -webkit-text-fill-color: transparent;
     width: 200px;
     letter-spacing: 2px;
+    margin-top: 55px;
 }
 
 .kep_up {
@@ -1523,8 +1528,8 @@
 }
 
 .don {
-    font-size: 14px;
-    color: #747682;
+    font-size: 12px;
+    color: white;
     margin-top: 4%;
     line-height: 24px;
 }
@@ -1604,10 +1609,11 @@
 .re_how {
     display: flex;
     justify-content: center;
-    letter-spacing: 2px;
-    background: -webkit-linear-gradient(0deg, #E52C39 0%, #0085F3 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 41%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+   
+    letter-spacing: 2px;
 
 }
 
@@ -1696,7 +1702,7 @@
 .meta {
     display: flex;
     justify-content: center;
-    background: -webkit-linear-gradient(0deg, #E52C39 0%, #0085F3 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 47%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 5%;
@@ -1896,7 +1902,7 @@
 .acca {
     display: flex;
     justify-content: center;
-    background: -webkit-linear-gradient(0deg, #E52C39 0%, #0085F3 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 41%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 7%;
@@ -2100,10 +2106,11 @@
 .acca-1 {
     display: flex;
     justify-content: center;
-    background: -webkit-linear-gradient(0deg, #E52C39 0%, #0085F3 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 41%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 7%;
+    letter-spacing: 2px;
 }
 
 .rigt-1 {
@@ -2405,6 +2412,21 @@
 }
 
 @media (max-width:578px) {
+    .line_paet {
+     display: none !important;
+    }
+    
+    #sets {
+        width: 45%;
+        position: relative;
+        right: 0%;
+    }
+    .parts {
+        margin-bottom: 0px !important;
+    }
+    #part_move {
+        margin-left: 0px !important;
+    }
     .cube-img
     {
         display: flex;
@@ -3850,4 +3872,17 @@
 .why-trade-height {
     padding-left: 20px !important;
     height: 120px;
+}
+#part_move{
+    margin-left: -50px;
+}.parts{
+    margin-bottom: -85px;
+}.line_paet {
+    background-image: linear-gradient(45deg, #0085F3 0%, #E52C39 100%);
+    width: 50px;
+    height: 4px;
+    margin-top: 160%;
+}
+#sops{
+    margin-top: 5%;
 }
