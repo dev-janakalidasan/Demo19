@@ -2631,6 +2631,8 @@
 
     .widget {
         margin-top: 20px !important;
+        overflow-y: scroll;
+    padding-left: 75px;
     }
 
     .of_word {
