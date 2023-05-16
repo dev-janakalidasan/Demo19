@@ -925,7 +925,7 @@
 
 .We {
     padding-top: 20%;
-    background: -webkit-linear-gradient(0deg,#E52C39 0%, #0085F3 25%);
+    background: -webkit-linear-gradient(0deg, #E52C39 0%, #0085F3 25%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 1px;
@@ -1105,7 +1105,7 @@
     background: -webkit-linear-gradient(0deg, #E52C39 17%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
- 
+
     width: 150px;
 }
 
@@ -1615,7 +1615,7 @@
     background: -webkit-linear-gradient(0deg, #E52C39 41%, #0085F3 58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+
     letter-spacing: 2px;
 
 }
@@ -1815,9 +1815,11 @@
 #currency_pair {
     width: 80% !important;
 }
+
 #currency_pair-1 {
     width: 80% !important;
 }
+
 .curr {
     margin-top: 45%;
 }
@@ -1859,7 +1861,7 @@
 
 .twenty {
     font-weight: 700;
-    color:#5e5c5c;
+    color: #5e5c5c;
 
 }
 
@@ -1896,7 +1898,9 @@
     margin-top: -6%;
     z-index: -1 !important;
     height: 500px;
-}.down_manu{
+}
+
+.down_manu {
     margin-top: 5% !important;
 }
 
@@ -2422,29 +2426,34 @@
         width: 80% !important;
         margin-left: -20px !important;
     }
-    .up_btcon{
+
+    .up_btcon {
         margin-top: 5% !important;
     }
+
     .line_paet {
-     display: none !important;
+        display: none !important;
     }
-    
+
     #sets {
         width: 45%;
         position: relative;
         right: 0%;
     }
+
     .parts {
         margin-bottom: 0px !important;
     }
+
     #part_move {
         margin-left: 0px !important;
     }
-    .cube-img
-    {
+
+    .cube-img {
         display: flex;
         justify-content: center;
     }
+
     #box {
         margin-bottom: 50px;
     }
@@ -2543,7 +2552,7 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        
+
     }
 
 
@@ -2636,7 +2645,7 @@
     .widget {
         margin-top: 20px !important;
         overflow-y: scroll;
-    padding-left: 75px;
+        padding-left: 75px;
     }
 
     .of_word {
@@ -3169,6 +3178,32 @@
     .foot-align {
         margin-top: 0px;
     }
+
+    .sit_con br {
+        display: none;
+    }  .don br {
+        display: none;
+    }.tare-1 br {
+        display: none;
+    }.ispum br {
+        display: none;
+    }.algo br {
+        display: none;
+    }.whether br {
+        display: none;
+    }.tare br {
+        display: none;
+    }.lorems br {
+        display: none;
+    }.lorems-1 br {
+        display: none;
+    }.clr {
+        width: 21rem;
+        height: 25rem !important;
+        box-shadow: 0px 0px 7px gray;
+    }.los br {
+        display: none;
+    }
 }
 
 @media (min-width:1500px) and (max-width:1890px) {
@@ -3320,9 +3355,13 @@
         width: 100%;
         position: relative;
         top: 216px;
-    }.dow_enter_1{
+    }
+
+    .dow_enter_1 {
         padding-top: 4% !important;
-    }#bubbles {
+    }
+
+    #bubbles {
         background-image: url('../Assets/image/image 1q.png');
         background-position: center;
         background-repeat: no-repeat;
@@ -3336,9 +3375,11 @@
 
 
 @media (min-width:1300px) and (max-width:1490px) {
-    .dow_enter_1{
+    .dow_enter_1 {
         padding-top: 4% !important;
-    }#bubbles {
+    }
+
+    #bubbles {
         background-image: url('../Assets/image/image 1q.png');
         background-position: center;
         background-repeat: no-repeat;
@@ -3348,6 +3389,7 @@
         z-index: -1 !important;
         height: 600px;
     }
+
     #back_pink {
         background-image: url('../Assets/image/Group 15.png');
         background-position: center;
@@ -3643,9 +3685,13 @@
         display: flex;
         justify-content: center;
         font-size: 60px;
-    }.dow_enter_1{
+    }
+
+    .dow_enter_1 {
         padding-top: 4% !important;
-    }#bubbles {
+    }
+
+    #bubbles {
         background-image: url('../Assets/image/image 1q.png');
         background-position: center;
         background-repeat: no-repeat;
@@ -3890,19 +3936,26 @@
     padding-left: 20px !important;
     height: 120px;
 }
-#part_move{
+
+#part_move {
     margin-left: -50px;
-}.parts{
+}
+
+.parts {
     margin-bottom: -85px;
-}.line_paet {
+}
+
+.line_paet {
     background-image: linear-gradient(45deg, #0085F3 0%, #E52C39 100%);
     width: 50px;
     height: 4px;
     margin-top: 160%;
 }
-#sops{
+
+#sops {
     margin-top: 5%;
 }
-#skm{
-    margin-top: -65px ;
+
+#skm {
+    margin-top: -65px;
 }
