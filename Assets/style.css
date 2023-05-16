@@ -1350,6 +1350,7 @@
     display: flex;
     justify-content: center;
     padding-top: 4%;
+    padding-bottom: 2%;
 }
 
 .redy_enter {
@@ -1380,7 +1381,7 @@
         linear-gradient(to right, #E52C39 7.98%, #0085F3 100%) border-box;
     border-radius: 50em;
     border: 2px solid transparent;
-    margin-top: 3%;
+    margin-top: 2%;
 
 
 }
@@ -1426,12 +1427,14 @@
 .date {
     color: #747682;
     font-size: 12px;
+    margin-top: 5px;
 }
 
 .si_am {
     color: #000;
     font-weight: 600;
     font-size: 17px;
+    margin-top: -5px;
 }
 
 .sit_amit {
@@ -1628,6 +1631,7 @@
     display: flex;
     justify-content: center;
     color: #747682;
+    font-size: 18px;
 }
 
 .ons {
@@ -2152,7 +2156,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 800px;
 }
 
 .selte {
@@ -2242,7 +2246,7 @@
 
 .two_card {
     width: 13rem;
-    height: 14rem !important;
+    height: 14.7rem !important;
     background-color: #212125 !important;
 }
 
@@ -2342,11 +2346,11 @@
 }
 
 .lasts {
-    background: linear-gradient(to right, #0085F3 7.98%, #E52C39 100%) border-box;
+    background: linear-gradient(to left, #0085F3 7.98%, #E52C39 100%) border-box;
     height: 2px;
     width: 100%;
     position: relative;
-    top: 247px;
+    top: 250px;
 }
 
 #pj {
@@ -3312,10 +3316,10 @@
 
     .lasts {
         background: linear-gradient(to right, #0085F3 7.98%, #E52C39 100%) border-box;
-        height: 2px;
+        height: 4px;
         width: 100%;
         position: relative;
-        top: 213px;
+        top: 216px;
     }.dow_enter_1{
         padding-top: 4% !important;
     }#bubbles {
@@ -3708,7 +3712,7 @@
 .new .ac_reg {
     display: flex;
     justify-content: start;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .new .acc_fill {
@@ -3898,4 +3902,7 @@
 }
 #sops{
     margin-top: 5%;
+}
+#skm{
+    margin-top: -65px ;
 }
