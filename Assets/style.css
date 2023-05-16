@@ -128,7 +128,7 @@
 
 #en {
     font-size: 14px !important;
-   
+    margin-left: 43px !important;
 }
 
 .navbar-bg {
@@ -345,7 +345,7 @@
 }
 
 .curren {
-    background: -webkit-linear-gradient(0deg, #E52C39 7.98%, #0085F3 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 3.98%, #0085F3 54%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 400;
@@ -406,7 +406,7 @@
 }
 
 .curren-1 {
-    background: -webkit-linear-gradient(0deg, #E52C39 7.98%, #0085F3 100%);
+    background: -webkit-linear-gradient(0deg, #E52C39 3.98%, #0085F3 54%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 400;
@@ -667,7 +667,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1100px;
+    height: 1000px;
     margin-top: 5%;
 }
 
@@ -1811,7 +1811,9 @@
 #currency_pair {
     width: 80% !important;
 }
-
+#currency_pair-1 {
+    width: 80% !important;
+}
 .curr {
     margin-top: 45%;
 }
@@ -2412,6 +2414,13 @@
 }
 
 @media (max-width:578px) {
+    #currency_pair-1 {
+        width: 80% !important;
+        margin-left: -20px !important;
+    }
+    .up_btcon{
+        margin-top: 5% !important;
+    }
     .line_paet {
      display: none !important;
     }
@@ -2770,10 +2779,11 @@
     }
 
     #balcm {
-        background-image: url('../Assets/image/Group 16201224.png');
+        background-image: none !important;
         background-position: center;
         background-repeat: no-repeat;
-        height: 1450px;
+        height: 1280px;
+        background-color: #000;
         background-size: cover;
     }
 
