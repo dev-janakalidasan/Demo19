@@ -3510,6 +3510,10 @@
 }
 
 @media(min-width:1900px) {
+    #en {
+        font-size: 14px !important;
+        margin-left: 20px !important;
+    }
     .pys {
         width: 115%;
     }
