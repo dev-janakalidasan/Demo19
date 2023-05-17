@@ -3209,6 +3209,12 @@
         flex-direction: column-reverse;
     }#en{
         display: none !important;
+    }.tare-4 br {
+        display: none;
+    }.risus br {
+        display: none;
+    }.con_amet  br {
+        display: none;
     }
 }
 
