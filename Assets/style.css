@@ -3203,6 +3203,12 @@
         box-shadow: 0px 0px 7px gray;
     }.los br {
         display: none;
+    }.uran  br {
+        display: none;
+    }#reverse{
+        flex-direction: column-reverse;
+    }#en{
+        display: none !important;
     }
 }
 
