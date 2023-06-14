@@ -3219,6 +3219,7 @@
 }
 
 @media (min-width:1500px) and (max-width:1890px) {
+    
     #coin {
         position: relative;
         width: 35% !important;
